@@ -2,7 +2,7 @@ import psycopg2
 from random import randint as rand
 
 
-connection = psycopg2.connect(database="RTK_IT",
+connection = psycopg2.connect(database="rtk_it",
                         user="postgres",
                         password="0000",
                         host="localhost",
