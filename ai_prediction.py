@@ -3,10 +3,10 @@ import numpy as np
 import psycopg2
 from datetime import date
 
-connection = psycopg2.connect(database="RTK_IT",
+connection = psycopg2.connect(database="rtk_it",
                         user="postgres",
                         password="0000",
-                        host="192.168.1.13",
+                        host="localhost",
                         port="5432")
 
 def get_total_quantity():
