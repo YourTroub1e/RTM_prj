@@ -4,7 +4,7 @@ import psycopg2
 from datetime import date
 
 connection = psycopg2.connect(database="rtk_it",
-                        user="postgres",
+                        user="myuser",
                         password="0000",
                         host="localhost",
                         port="5432")
